@@ -198,16 +198,16 @@ img {
   background-position: center;
 }
 .icon-antenna:before {
-  background-image: url('../img/index/svg/antenna.svg');
+  background-image: url('../img/svg/antenna.svg');
 }
 .icon-clock:before {
-  background-image: url('../img/index/svg/clock.svg');
+  background-image: url('../img/svg/clock.svg');
 }
 .icon-diagram:before {
-  background-image: url('../img/index/svg/diagram.svg');
+  background-image: url('../img/svg/diagram.svg');
 }
 .icon-astronaut:before {
-  background-image: url('../img/index/svg/astronaut.svg');
+  background-image: url('../img/svg/astronaut.svg');
 }
 .features-list .item + .item {
   margin-left: 30px;
