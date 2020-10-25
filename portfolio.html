@@ -24,7 +24,7 @@
         <nav class="nav-container">
           <ul class="nav-list list">
             <li class="item">
-              <a class="nav-link" href="./index.html">Студия</a>
+              <a class="nav-link" href="./index.html"> Студия</a>
             </li>
             <li class="item">
               <a class="nav-link current" href="./portfolio.html">Портфолио</a>
@@ -37,13 +37,19 @@
         <!-- Контакты -->
         <ul class="contacts-list list">
           <li class="item">
-            <a class="address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="address-link" href="mailto:info@devstudio.com">
+              <svg class="adress-icon" width="16" height="12">
+                <use href="./img/sprite.svg#envelope "></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a class="address-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="address-link" href="tel:+380961111111">
+              <svg class="adress-icon" width="10" height="16">
+                <use href="./img/sprite.svg#smartphone "></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -78,7 +84,7 @@
           <ul class="port-list list">
             <li class="list-item">
               <img
-                src="./img/portfolio/img1.png"
+                src="./img/portfolio/img1.jpg"
                 alt="Технокряк Веб-сайт"
                 width="370"
               />
@@ -90,7 +96,7 @@
             </li>
             <li class="list-item">
               <img
-                src="./img/portfolio/img2.png"
+                src="./img/portfolio/img2.jpg"
                 alt="Постер new Orlean vs Golden Star"
                 width="370"
               />
@@ -102,7 +108,7 @@
             </li>
             <li class="list-item">
               <img
-                src="./img/portfolio/img3.png"
+                src="./img/portfolio/img3.jpg"
                 alt="Ресторан Seafood"
                 width="370"
               />
@@ -114,7 +120,7 @@
             </li>
             <li class="list-item">
               <img
-                src="./img/portfolio/img4.png"
+                src="./img/portfolio/img4.jpg"
                 alt="Проект Prime"
                 width="370"
               />
@@ -126,7 +132,7 @@
             </li>
             <li class="list-item">
               <img
-                src="./img/portfolio/img5.png"
+                src="./img/portfolio/img5.jpg"
                 alt="Проект Boxes"
                 width="370"
               />
@@ -138,7 +144,7 @@
             </li>
             <li class="list-item">
               <img
-                src="./img/portfolio/img6.png"
+                src="./img/portfolio/img6.jpg"
                 alt="Inspiration has no Borders"
                 width="370"
               />
@@ -150,7 +156,7 @@
             </li>
             <li class="list-item">
               <img
-                src="./img/portfolio/img7.png"
+                src="./img/portfolio/img7.jpg"
                 alt="Издание Limited Edition"
                 width="370"
               />
@@ -162,7 +168,7 @@
             </li>
             <li class="list-item">
               <img
-                src="./img/portfolio/img8.png"
+                src="./img/portfolio/img8.jpg"
                 alt="Проект LAB"
                 width="370"
               />
@@ -174,7 +180,7 @@
             </li>
             <li class="list-item">
               <img
-                src="./img/portfolio/img9.png"
+                src="./img/portfolio/img9.jpg"
                 alt="Проект LAB"
                 width="370"
               />
@@ -191,19 +197,56 @@
     <!-- футер сайта -->
     <footer class="footer-section" id="contacts">
       <div class="footer container">
-        <a class="logo" href="./index.html"
-          ><span
-            ><span style="color: #2196f3">Web</span
-            ><span style="color: #fff">Studio</span></span
-          ></a
-        >
-        <address>
-          <span class="location">г. Киев, пр-т Леси Украинки, 26</span><br />
-          <a class="contact" href="mailto:info@devstudio.com"
-            >info@example.com</a
-          ><br />
-          <a class="contact" href="tel:+380961111111">+38 099 111 11 11</a>
-        </address>
+        <!-- адрес -->
+        <div>
+          <a class="logo" href="./index.html"
+            ><span
+              ><span style="color: #2196f3">Web</span
+              ><span style="color: #fff">Studio</span></span
+            ></a
+          >
+          <address class="adress-section">
+            <span class="location">г. Киев, пр-т Леси Украинки, 26</span><br />
+            <a class="contact" href="mailto:info@devstudio.com"
+              >info@example.com</a
+            ><br />
+            <a class="contact" href="tel:+380961111111">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <!-- Присоединяйтесь -->
+        <div class="join-section">
+          <p class="join-title">присоединяйтесь</p>
+          <ul class="footer-social-list list">
+            <li class="join-item">
+              <a class="footer-social-link" href=""
+                ><svg class="footer-social-icon">
+                  <use href="./img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-icon">
+                  <use href="./img/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="footer-social-link" href=""
+                ><svg class="footer-social-icon">
+                  <use href="./img/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="footer-social-link" href=""
+                ><svg class="footer-social-icon">
+                  <use href="./img/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
